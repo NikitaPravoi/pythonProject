@@ -481,6 +481,3 @@ def set_date(start_clicks, month_clicks, year_clicks):
         start_date = min(df2['Месяц, Год'])
     return start_date, end_date
 
-
-if __name__ == '__main__':
-    app.run_server(debug=True)
