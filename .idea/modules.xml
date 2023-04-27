@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/djangovenv/.idea/djangovenv.iml" filepath="$USER_HOME$/djangovenv/.idea/djangovenv.iml" />
+      <module fileurl="file://$USER_HOME$/djangovenv/mysite/.idea/mysite.iml" filepath="$USER_HOME$/djangovenv/mysite/.idea/mysite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pythonProject.iml" filepath="$PROJECT_DIR$/.idea/pythonProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pythonProject1/.idea/pythonProject1.iml" filepath="$PROJECT_DIR$/../pythonProject1/.idea/pythonProject1.iml" />
+    </modules>
+  </component>
+</project>
