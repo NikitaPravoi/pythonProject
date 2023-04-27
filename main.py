@@ -5,10 +5,10 @@ from database import mydb
 from datetime import datetime, timedelta
 
 # Собираем данные
-df = pd.read_excel("/Users/user/Downloads/Telegram Desktop/machinery.xlsx")
+df = pd.read_excel("machinery.xlsx")
 df['Подрядчик'] = df['Подрядчик'].str.strip()
 
-df2 = pd.read_excel("/Users/user/Downloads/Telegram Desktop/Реконструкция_таштагольского_рудника_13979.xlsx",
+df2 = pd.read_excel("rudnik.xlsx",
                     sheet_name='Мобилизация подрядчика ')
 
 df3 = pd.DataFrame({'Персонал': ['ИТР', 'Механизатор', 'Рабочий', 'Вспомогательный рабочий', 'Итого; персонал'],
