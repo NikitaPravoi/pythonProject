@@ -21,8 +21,9 @@ df4 = pd.DataFrame({'Техника': ['Основная',  'Вспомогат�
                     'Изменение за период': [3, 1, 4],
                     'Обеспеченность (% от плана)': [72, 62, 70]})
 
-sql = "SELECT * FROM organizations"
-sql_df = pd.read_sql(sql, con=mydb)
+# sql = "SELECT * FROM organizations"
+# sql_df = pd.read_sql(sql, con=mydb)
+sql_df = pd.DataFrame("from_sql.xlsx")
 
 # Внешний стиль CSS
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
