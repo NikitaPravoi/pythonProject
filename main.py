@@ -148,6 +148,7 @@ html.Div([
             'background-color': 'white'}),
 ], style={'padding-top': '60px'})
 
+
 # Передача коллбэков из одного селектора в другой (список техники по подрядчику)
 @app.callback(
     Output("machinery-dropdown", "disabled"),
